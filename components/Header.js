@@ -1,11 +1,12 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import HeaderNavLink from './HeaderNavLink';
-import SearchField from './SearchField';
+import Image from "next/image";
+import Link from "next/link";
+import HeaderNavLink from "./HeaderNavLink";
+import SearchField from "./SearchField";
 
 const menuItems = [
   { label: `Home`, url: `/` },
   { label: `Dashboard`, url: `/dashboard/analytics` },
+  { label: `Profile`, url: `/profile/profile1` },
   { label: `Newsletter`, url: `/newsletter` },
 ];
 

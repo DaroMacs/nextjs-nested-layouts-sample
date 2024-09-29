@@ -1,4 +1,4 @@
-import DashboardNavLink from '@/components/DashboardNavLink';
+import DashboardNavLink from "@/components/DashboardNavLink";
 
 const DashboardLayout = ({ children }) => {
   return (
@@ -21,11 +21,11 @@ const DashboardLayout = ({ children }) => {
                 Settings
               </DashboardNavLink>
             </li>
-            {/* <li>
-              <DashboardNavLink href="/dashboard/settings/users">
-                Users notifications
+            <li>
+              <DashboardNavLink href="/dashboard/profile">
+                Profile
               </DashboardNavLink>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </aside>
